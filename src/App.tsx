@@ -1,4 +1,5 @@
 import "./App.css";
+import { Button } from "./components/ui/button";
 import {
   decrement,
   decrementByPayload,
@@ -14,6 +15,7 @@ function App() {
 
   return (
     <>
+      <Button> Shadcn Button </Button>
       <h1>Content with Redux</h1>
       <button onClick={() => dispatch(incrementByPayload(5))}>
         Increment By 5
