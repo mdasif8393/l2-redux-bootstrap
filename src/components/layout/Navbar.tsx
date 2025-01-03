@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { ModeToggle } from "../mode-toggle";
 
 const Navbar = () => {
   return (
@@ -8,6 +9,9 @@ const Navbar = () => {
       </div>
       <Link to="/">Tasks</Link>
       <Link to="/user">User</Link>
+      <div className="ml-auto">
+        <ModeToggle />
+      </div>
     </nav>
   );
 };
