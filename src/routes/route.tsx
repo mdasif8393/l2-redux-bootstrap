@@ -1,6 +1,6 @@
 import App from "@/App";
 import Login from "@/pages/Login";
-import Task from "@/pages/Task";
+import Tasks from "@/pages/Tasks";
 import User from "@/pages/User";
 
 import { createBrowserRouter } from "react-router-dom";
@@ -12,7 +12,7 @@ const routes = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Task />,
+        element: <Tasks />,
       },
       {
         path: "user",
