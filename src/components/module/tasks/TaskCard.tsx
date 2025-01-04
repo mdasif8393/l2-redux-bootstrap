@@ -9,7 +9,6 @@ interface IProps {
 }
 
 const TaskCard = ({ task }: IProps) => {
-  console.log(task);
   return (
     <div className="border px-5 py-3 rounded-md">
       <div className="flex justify-between items-center">
